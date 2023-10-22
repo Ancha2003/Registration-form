@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .main{
+            height: 650px;
+            width: 600px;
+            border: 2px solid white;
+            background-color: darkcyan;
+        }
+        .main:hover{
+            filter: drop-shadow(10px 15px 15px);            
+        }
+        .main h1{
+            display: grid;
+            place-items: center;
+        }
+        .main h1:hover{
+            color: white;
+            filter: drop-shadow(5px 5px 5px red);
+        }
+        .main img{
+            display: grid;
+            place-items: center;
+        }
+        .main img:hover{
+            filter: drop-shadow(6px 6px 6px white);
+        }
+        #name1{ 
+              justify-content : space-between;
+              margin-bottom: 120px;      
+        }
+        input{
+            margin-bottom: 8px;
+            height: 20px;
+            border-radius: 5px;
+        }
+        input:hover{
+            height: 25px;
+        }
+        #name2{
+            margin-left: -23px;
+        }
+        #name3{
+            margin-left: -155px;
+        }
+        #name5{
+            height: 20px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+        #name4{
+            margin-left: 10px;
+            height: 20px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div class="main">
+            <h1><i>  Rajkiya Engineering college Banda </i></h1>
+            <img src="ppppp-removebg-preview.png" alt="logo">
+          <form>
+            <label for="username" id="name1">First-name:</label>
+            <input type="text">
+            <br>
+            <label for="username" id="name">Last-name:</label>
+            <input type="text">
+            <br>
+            <label for="Father-name" id="name">Father-name:</label>
+            <input type="text">
+            <br>
+            <label for="Mother-name" id="name">Mother-name:</label>
+            <input type="text">
+            <br>
+            <label for="E-mail" id="name2">E-mail:</label>
+            <input type="text">
+            <br>
+            <label for="Whatsapp" id="name">Whatsapp-Number:</label>
+            <input type="number">
+            <br>
+            <label for="Phone" id="name">Phone-Number:</label>
+            <input type="number">
+            <br>
+            <label for="Gender" id="name3">Gender:</label>
+            <select name="choice" id="name5">
+                <option value="choice">choice</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female   </option>
+            </select>
+            <br>
+            <label for="image" id="name4">Uplode-image:</label>
+            <input type="file">
+            <br>
+            <label for="signature" id="name4">Uplode-signature:</label>
+            <input type="file">
+          </form>
+        </div>
+    </center>
+</body>
+</html>
